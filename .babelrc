@@ -1,0 +1,6 @@
+// to remove console logs from code babel need to configure that using plugins:
+
+{
+    // "plugins": [["transform-remove-console",
+    // {"exclude": ["error", "warn"]}]]
+}

@@ -2,9 +2,10 @@
   "name": "namastereact",
   "version": "1.0.0",
   "description": "Learning react",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel base.html",
+    "build": "parcel build base.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/nahalanazar/React_learning#readme",
   "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.12.0",
     "process": "^0.11.10"
   },
